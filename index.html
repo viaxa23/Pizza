@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <title>Pizza</title>
-    <link rel="stylesheet" href="stilus.css">
-</head>
-<body>
-    <script src="gyak.js"></script>
-</body>
+    <head>
+        <title>Pizzarendelés</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="stilus.css">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Pizzarendelés</legend>
+                <fieldset class="regio">
+                        <legend>Összeállítás</legend>
+                        <table id="fajtaMeret">
+                            <tr><td></td><td><input type="radio" name="type" id="mar">Margareta</td><td><input type="radio" name="type" id="haw">Hawaii</td><td><input type="radio" name="type" id="magy">Magyaros</td></tr>
+                            <tr><td><input type="radio" name="meret" value="kicsi">Kicsi</td><td>1500FT</td><td>1650FT</td><td>1400FT</td></tr>
+                            <tr><td><input type="radio" name="meret" value="kozepes">Közepes</td><td>1700FT</td><td>1850FT</td><td>1600FT</td></tr>
+                            <tr><td><input type="radio" name="meret" value="nagy">Nagy</td><td>1900FT</td><td>2050FT</td><td>1800FT</td></tr>
+                            <tr><td></td><td><td></td><td></td></td></tr>
+                        </table>
+                </fieldset>
+                <fieldset class="regio">
+                    <legend>Összesítés</legend>
+                </fieldset>
+            </fieldset>
+        </form>
+        <script src="pizza.js"></script>
+    </body>
 </html>

@@ -1,9 +1,20 @@
-legend{
+legend {
     text-align: center;
 }
 
-.regio{
+.regio {
     float: left;
-    width: 46%;
-    margin: 0 10 px;
+    width: 47%;
+    height: 200px;
+    margin: 0 5px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+td:first-child{
+    text-align: left;
 }
